@@ -1501,7 +1501,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/CPH1859/proprietary/vendor/lib/hw/vendor.oppo.hardware.ktv@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.oppo.hardware.ktv@1.0-impl.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib/hw/vendor.oppo.hardware.oiface@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.oppo.hardware.oiface@1.0-impl.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vibrator.default.so \
-    vendor/oppo/CPH1859/proprietary/vendor/lib/hw/vulkan.mt6771.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.mt6771.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib/libBnMtkCodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libBnMtkCodec.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib/libCamera_ov13855mipiraw_3rd_Capture_1080P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov13855mipiraw_3rd_Capture_1080P.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib/libCamera_ov13855mipiraw_3rd_Capture_480P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov13855mipiraw_3rd_Capture_480P.so \
@@ -1916,7 +1915,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/CPH1859/proprietary/vendor/lib64/hw/vendor.oppo.hardware.ktv@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.oppo.hardware.ktv@1.0-impl.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib64/hw/vendor.oppo.hardware.oiface@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.oppo.hardware.oiface@1.0-impl.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib64/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vibrator.default.so \
-    vendor/oppo/CPH1859/proprietary/vendor/lib64/hw/vulkan.mt6771.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.mt6771.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib64/lbs_hidl_service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lbs_hidl_service-impl.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib64/lib3DSlender.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3DSlender.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib64/lib3a.ae.core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.ae.core.so \
