@@ -1466,15 +1466,9 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/CPH1859/proprietary/vendor/lib/hw/audio_policy.stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio_policy.stub.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib/hw/dfps.mt6771.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/dfps.mt6771.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib/hw/flp.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/flp.default.so \
-    vendor/oppo/CPH1859/proprietary/vendor/lib/hw/gatekeeper.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.default.so \
-    vendor/oppo/CPH1859/proprietary/vendor/lib/hw/gatekeeper.mt6771.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.mt6771.so \
-    vendor/oppo/CPH1859/proprietary/vendor/lib/hw/gatekeeper.oppo6771_17065.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.oppo6771_17065.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib/hw/gps.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gps.default.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib/hw/gralloc.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.default.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib/hw/gralloc.mt6771.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.mt6771.so \
-    vendor/oppo/CPH1859/proprietary/vendor/lib/hw/keystore.mt6771.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/keystore.mt6771.so \
-    vendor/oppo/CPH1859/proprietary/vendor/lib/hw/keystore.oppo6771_17065.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/keystore.oppo6771_17065.so \
-    vendor/oppo/CPH1859/proprietary/vendor/lib/hw/kmsetkey.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/kmsetkey.default.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib/hw/kmsetkey.trustonic.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/kmsetkey.trustonic.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib/hw/libMcGatekeeper.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/libMcGatekeeper.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib/hw/libMcTeeKeymaster.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/libMcTeeKeymaster.so \
@@ -1874,16 +1868,10 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/CPH1859/proprietary/vendor/lib64/hw/audio_policy.stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio_policy.stub.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib64/hw/dfps.mt6771.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/dfps.mt6771.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib64/hw/flp.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/flp.default.so \
-    vendor/oppo/CPH1859/proprietary/vendor/lib64/hw/gatekeeper.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.default.so \
-    vendor/oppo/CPH1859/proprietary/vendor/lib64/hw/gatekeeper.mt6771.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.mt6771.so \
-    vendor/oppo/CPH1859/proprietary/vendor/lib64/hw/gatekeeper.oppo6771_17065.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.oppo6771_17065.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib64/hw/gps.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gps.default.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib64/hw/gralloc.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.default.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib64/hw/gralloc.mt6771.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.mt6771.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib64/hw/hwcomposer.mt6771.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.mt6771.so \
-    vendor/oppo/CPH1859/proprietary/vendor/lib64/hw/keystore.mt6771.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.mt6771.so \
-    vendor/oppo/CPH1859/proprietary/vendor/lib64/hw/keystore.oppo6771_17065.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.oppo6771_17065.so \
-    vendor/oppo/CPH1859/proprietary/vendor/lib64/hw/kmsetkey.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/kmsetkey.default.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib64/hw/kmsetkey.trustonic.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/kmsetkey.trustonic.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib64/hw/libMcGatekeeper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/libMcGatekeeper.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib64/hw/libMcTeeKeymaster.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/libMcTeeKeymaster.so \
