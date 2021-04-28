@@ -52,11 +52,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/CPH1859/proprietary/vendor/app/mcRegistry/09190000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/09190000000000000000000000000000.tlbin \
     vendor/oppo/CPH1859/proprietary/vendor/bin/OppoKeybox:$(TARGET_COPY_OUT_VENDOR)/bin/OppoKeybox \
     vendor/oppo/CPH1859/proprietary/vendor/bin/TBaseDeviceBinding:$(TARGET_COPY_OUT_VENDOR)/bin/TBaseDeviceBinding \
-    vendor/oppo/CPH1859/proprietary/vendor/bin/aee_aedv:$(TARGET_COPY_OUT_VENDOR)/bin/aee_aedv \
-    vendor/oppo/CPH1859/proprietary/vendor/bin/aee_aedv64:$(TARGET_COPY_OUT_VENDOR)/bin/aee_aedv64 \
-    vendor/oppo/CPH1859/proprietary/vendor/bin/aee_archivev:$(TARGET_COPY_OUT_VENDOR)/bin/aee_archivev \
-    vendor/oppo/CPH1859/proprietary/vendor/bin/aee_dumpstatev:$(TARGET_COPY_OUT_VENDOR)/bin/aee_dumpstatev \
-    vendor/oppo/CPH1859/proprietary/vendor/bin/aeev:$(TARGET_COPY_OUT_VENDOR)/bin/aeev \
     vendor/oppo/CPH1859/proprietary/vendor/bin/atci_service:$(TARGET_COPY_OUT_VENDOR)/bin/atci_service \
     vendor/oppo/CPH1859/proprietary/vendor/bin/atcid:$(TARGET_COPY_OUT_VENDOR)/bin/atcid \
     vendor/oppo/CPH1859/proprietary/vendor/bin/audiocmdservice_atci:$(TARGET_COPY_OUT_VENDOR)/bin/audiocmdservice_atci \
@@ -179,7 +174,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/CPH1859/proprietary/vendor/etc/ST_Liveness.model:$(TARGET_COPY_OUT_VENDOR)/etc/ST_Liveness.model \
     vendor/oppo/CPH1859/proprietary/vendor/etc/ST_Verify.model:$(TARGET_COPY_OUT_VENDOR)/etc/ST_Verify.model \
     vendor/oppo/CPH1859/proprietary/vendor/etc/VfbTuningInterface.xml:$(TARGET_COPY_OUT_VENDOR)/etc/VfbTuningInterface.xml \
-    vendor/oppo/CPH1859/proprietary/vendor/etc/aee-config:$(TARGET_COPY_OUT_VENDOR)/etc/aee-config \
     vendor/oppo/CPH1859/proprietary/vendor/etc/agps_profiles_conf2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/agps_profiles_conf2.xml \
     vendor/oppo/CPH1859/proprietary/vendor/etc/ams_aal_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ams_aal_config.xml \
     vendor/oppo/CPH1859/proprietary/vendor/etc/asd/class.tflite:$(TARGET_COPY_OUT_VENDOR)/etc/asd/class.tflite \
@@ -1158,8 +1152,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/CPH1859/proprietary/vendor/etc/fstb.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/fstb.cfg \
     vendor/oppo/CPH1859/proprietary/vendor/etc/fteh.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/fteh.cfg \
     vendor/oppo/CPH1859/proprietary/vendor/etc/gasryuv.model:$(TARGET_COPY_OUT_VENDOR)/etc/gasryuv.model \
-    vendor/oppo/CPH1859/proprietary/vendor/etc/init/aee_aedv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/aee_aedv.rc \
-    vendor/oppo/CPH1859/proprietary/vendor/etc/init/aee_aedv64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/aee_aedv64.rc \
     vendor/oppo/CPH1859/proprietary/vendor/etc/init/android.hardware.audio@4.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.audio@4.0-service-mediatek.rc \
     vendor/oppo/CPH1859/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc \
     vendor/oppo/CPH1859/proprietary/vendor/etc/init/android.hardware.configstore@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.configstore@1.1-service.rc \
