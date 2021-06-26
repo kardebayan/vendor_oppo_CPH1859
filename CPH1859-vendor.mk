@@ -1780,6 +1780,15 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/CPH1859/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib/mediadrm/libmockdrmcryptoplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libmockdrmcryptoplugin.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
+    vendor/oppo/CPH1859/proprietary/vendor/lib/modules/bt_drv.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/bt_drv.ko \
+    vendor/oppo/CPH1859/proprietary/vendor/lib/modules/fmradio_drv.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/fmradio_drv.ko \
+    vendor/oppo/CPH1859/proprietary/vendor/lib/modules/fpsgo.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/fpsgo.ko \
+    vendor/oppo/CPH1859/proprietary/vendor/lib/modules/gps_drv.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/gps_drv.ko \
+    vendor/oppo/CPH1859/proprietary/vendor/lib/modules/kneuron.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/kneuron.ko \
+    vendor/oppo/CPH1859/proprietary/vendor/lib/modules/met.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/met.ko \
+    vendor/oppo/CPH1859/proprietary/vendor/lib/modules/wlan_drv_gen3.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/wlan_drv_gen3.ko \
+    vendor/oppo/CPH1859/proprietary/vendor/lib/modules/wmt_chrdev_wifi.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/wmt_chrdev_wifi.ko \
+    vendor/oppo/CPH1859/proprietary/vendor/lib/modules/wmt_drv.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/wmt_drv.ko \
     vendor/oppo/CPH1859/proprietary/vendor/lib/ov13855_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov13855_mipi_raw_IdxMgr.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib/ov13855_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov13855_mipi_raw_tuning.so \
     vendor/oppo/CPH1859/proprietary/vendor/lib/s5k4h7_mipi_raw_1_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/s5k4h7_mipi_raw_1_IdxMgr.so \
