@@ -15,6 +15,71 @@ android_app_import {
 	},
 }
 
+android_app_import {
+	name: "ImsService",
+	owner: "oppo",
+	apk: "proprietary/priv-app/ImsService/ImsService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+dex_import {
+	name: "mediatek-common",
+	owner: "oppo",
+	jars: ["proprietary/framework/mediatek-common.jar"],
+}
+
+dex_import {
+	name: "mediatek-framework-net",
+	owner: "oppo",
+	jars: ["proprietary/framework/mediatek-framework-net.jar"],
+}
+
+dex_import {
+	name: "mediatek-framework",
+	owner: "oppo",
+	jars: ["proprietary/framework/mediatek-framework.jar"],
+}
+
+dex_import {
+	name: "mediatek-ims-common",
+	owner: "oppo",
+	jars: ["proprietary/framework/mediatek-ims-common.jar"],
+}
+
+dex_import {
+	name: "mediatek-ims-extension-plugin",
+	owner: "oppo",
+	jars: ["proprietary/framework/mediatek-ims-extension-plugin.jar"],
+}
+
+dex_import {
+	name: "mediatek-services",
+	owner: "oppo",
+	jars: ["proprietary/framework/mediatek-services.jar"],
+}
+
+dex_import {
+	name: "mediatek-telecom-common",
+	owner: "oppo",
+	jars: ["proprietary/framework/mediatek-telecom-common.jar"],
+}
+
+dex_import {
+	name: "mediatek-telephony-base",
+	owner: "oppo",
+	jars: ["proprietary/framework/mediatek-telephony-base.jar"],
+}
+
+dex_import {
+	name: "mediatek-telephony-common",
+	owner: "oppo",
+	jars: ["proprietary/framework/mediatek-telephony-common.jar"],
+}
+
 dex_import {
 	name: "mtk-wifi-service",
 	owner: "oppo",
