@@ -15,17 +15,6 @@ android_app_import {
 	},
 }
 
-android_app_import {
-	name: "ImsService",
-	owner: "oppo",
-	apk: "proprietary/priv-app/ImsService/ImsService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
 dex_import {
 	name: "mtk-wifi-service",
 	owner: "oppo",
